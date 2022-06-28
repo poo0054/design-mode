@@ -1,4 +1,4 @@
-package 代理模式.jdk代理;
+package com.poo0054.design.jdkproxy;
 
 public interface IService {
     void add(Integer integer);

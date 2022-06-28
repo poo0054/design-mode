@@ -1,4 +1,4 @@
-package 代理模式.jdk代理;
+package com.poo0054.design.jdkproxy;
 
 public class Clint {
     public static void main(String[] args) {

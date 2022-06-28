@@ -1,6 +1,4 @@
-package 代理模式.jdk代理;
-
-import jdk.nashorn.internal.objects.NativeDebug;
+package com.poo0054.design.jdkproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
