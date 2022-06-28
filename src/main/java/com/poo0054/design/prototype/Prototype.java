@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <a href= 'http://c.biancheng.net/view/1338.html'>参考</a>
+ * <a href= 'http://c.biancheng.net/view/1343.html'>参考</a>
  * <br/>原型模式 ：用一个已经创建的实例作为原型，通过复制该原型对象来创建一个和原型相同或相似的新对象。
  * <br/>原型模式包含以下主要角色。
  * <br/>1. 抽象原型类：规定了具体原型对象必须实现的接口。
