@@ -1,5 +1,7 @@
 package com.poo0054.design.singleton;
 
+import org.junit.Test;
+
 /**
  * <a href= 'http://c.biancheng.net/view/1338.html'>参考</a>
  * <br/>单例模式：单例模式可以保证在一个 JVM 中只存在单一实例
@@ -14,6 +16,11 @@ package com.poo0054.design.singleton;
 
 public class SingletonDemo {
 
+    @Test
+    public void test() {
+        DoubleCheckLazySinglet lazySinglet = DoubleCheckLazySinglet.getLazySinglet();
+
+    }
 
     //===========================懒汉式
 
