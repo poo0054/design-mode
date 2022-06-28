@@ -3,7 +3,9 @@ package com.poo0054.design.factory;
 import org.junit.Test;
 
 /**
- * 抽象工厂：在工厂方法上，再次进行抽象，可以创建多个产品
+ * <a href= 'http://c.biancheng.net/view/1351.html'>参考</a>
+ * 抽象工厂：在工厂方法上，再次进行抽象，一个工厂可能存在多种产品
+ * ps：抽象工厂模式是工厂方法模式的升级版本，工厂方法模式只生产多种产品，而抽象工厂模式可生产多种产品。  当产品只有一种，退化成工厂方法
  * <br/> ------------------------------
  * <br/>工厂方法模式的主要角色如下。
  * <br/>1. 抽象工厂（AbstractFactory）：提供创建工厂的方法
@@ -16,7 +18,7 @@ import org.junit.Test;
  * @since 2022/6/28 11:41
  */
 
-public class AbstractFactory {
+public class AbstractFactoryDemo {
 
     @Test
     public void test() {

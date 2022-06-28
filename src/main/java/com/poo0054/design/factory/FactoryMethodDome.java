@@ -3,7 +3,12 @@ package com.poo0054.design.factory;
 import org.junit.Test;
 
 /**
- * 工厂方法模式： 工厂方法模式是对简单工厂模式的进一步抽象化，使用不同工厂创建不同产品。 ps:删除抽象工厂 只用一个工厂方法创建产品 就退化到简单工厂
+ * <a href= 'http://c.biancheng.net/view/1348.html'>参考</a>
+ * 工厂方法模式： 工厂方法模式是对简单工厂模式的进一步抽象化，使用不同工厂创建不同产品。
+ * 工厂方法模式中考虑的是一类产品的生产，如畜牧场只养动物、电视机厂只生产电视机、计算机软件学院只培养计算机软件专业的学生等。
+ * <p>
+ * ps：删除抽象工厂 只用一个工厂方法创建产品 就退化到简单工厂 （静态工厂方法模式）。
+ * 抽象工厂模式可生产多种产品。  当产品只有一种，退化成工厂方法
  * <br/>
  * PS:一般说的简单工厂，就是少了一层抽象工厂
  * <br/>工厂方法模式的主要角色如下。
@@ -16,7 +21,7 @@ import org.junit.Test;
  * @version 1.0
  * @since 2022/6/28 10:49
  */
-public class FactoryMethod {
+public class FactoryMethodDome {
 
     /**
      * <br/>根据不同的productName，生产出不同的产品。
