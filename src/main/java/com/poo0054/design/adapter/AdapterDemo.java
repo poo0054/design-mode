@@ -41,14 +41,14 @@ public class AdapterDemo {
     }
 
     /**
-     * 服务接口
+     * 目标
      */
     interface Service {
         public void send();
     }
 
     /**
-     * 服务实现
+     * 服务实现（目标实现）
      */
     class ServiceImpl implements Service {
         @Override
@@ -66,6 +66,8 @@ public class AdapterDemo {
         }
     }
 
+    //============================对象适配器
+
     /**
      * 类适配器。
      * 表面看调用的send，其实是调用的sending。使用Service接口 就能够统一了
@@ -76,6 +78,8 @@ public class AdapterDemo {
             sending();
         }
     }
+
+    //============================对象适配器
 
     /**
      * 对象适配器，
